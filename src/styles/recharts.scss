@@ -1,0 +1,28 @@
+
+.recharts-wrapper {
+  width: 100% !important;
+  .recharts-legend-wrapper {
+    .recharts-default-legend {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .recharts-legend-item {
+        display: flex !important;
+        align-items: center;
+        gap: 6px !important;
+
+        svg {
+          height: 20px;
+          border-radius: 20px
+        }
+
+        .recharts-legend-item-text {
+          color: theme("colors.second-black") !important;
+          font-size: 16px !important;
+          font-weight: normal !important;
+        }
+      }
+    }
+  }
+}

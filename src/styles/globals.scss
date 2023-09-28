@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@/styles/recharts";
+
+body {
+  background: theme("colors.bold-black");
+}
+
+input {
+  background: none !important;
+}
